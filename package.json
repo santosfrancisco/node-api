@@ -1,0 +1,19 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.2"
+  }
+}
