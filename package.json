@@ -10,8 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "azure-storage": "^2.1.0",
     "body-parser": "^1.18.1",
-    "mongoose": "^4.11.11"
+    "express": "^4.15.5",
+    "guid": "0.0.12",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^4.11.11",
+    "sendgrid": "^2.0.0"
   },
   "devDependencies": {
     "morgan": "^1.8.2"

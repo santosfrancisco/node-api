@@ -29,9 +29,15 @@ const productSchema = new Schema({
         default: true
     },
     tags: [{
-        type: String,
-        required: true
-    }]
+            type: String,
+            required: true
+        }]
+        // ,
+        // image: {
+        //     type: String,
+        //     required: true,
+        //     trim: true
+        // }
 });
 
 module.exports = mongoose.model('Product', productSchema);
